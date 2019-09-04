@@ -13,22 +13,29 @@
     background-color: white;
     line-height: 26px;
     margin: 50px auto;
+    // margin-bottom: 30px;
     border: 1px solid lightgray;
     border-radius: 5px;
     padding: 18px;
     text-align: left;
   }
   img {
-    margin-top: 30px;
+    margin-right: 12px;
+    margin-top: 20px;
+    float: left;
     height: 50px;
     width: 50px;
   }
   .co-founders{
+    color: $buttonCol;
     display: inline-block;
+    height: 50px;
+    margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 0px;
   }
 }
 #qualifications {
   font-size: 15px;
+  color: $fontCol;
 }

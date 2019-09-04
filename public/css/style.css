@@ -197,19 +197,25 @@ header {
 }
 
 .heightSec img {
-  margin-top: 30px;
+  margin-right: 12px;
+  margin-top: 20px;
+  float: left;
   height: 50px;
   width: 50px;
 }
 
 .heightSec .co-founders {
+  color: #2E4691;
   display: inline-block;
+  height: 50px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 0px;
 }
 
 #qualifications {
   font-size: 15px;
+  color: #58402C;
 }
 
 * {
