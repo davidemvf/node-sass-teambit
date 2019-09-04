@@ -1,0 +1,12 @@
+.first-section {
+  @extend %centHead;
+  @extend %spaceBet;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  width: $half;
+  height: 455px;
+  background: green;
+}

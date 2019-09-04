@@ -1,6 +1,14 @@
+@import "_var";
+@import "_mixin";
+@import "_header";
+@import "_firstSection";
+@import "_second&thirdSec";
+@import "_whiteSections";
+@import "_heigthSec";
+
 *{
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;

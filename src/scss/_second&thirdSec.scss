@@ -1,0 +1,15 @@
+.second-section {
+  background: #FFE7D2;
+  hr{
+    @extend %centHead;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+}
+
+.beige {
+  @extend %centBeige;
+  text-align: center;
+  background: red;
+
+}

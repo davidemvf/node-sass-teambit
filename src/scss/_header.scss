@@ -1,0 +1,14 @@
+header {
+  @extend %centHead;
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid lightgray;
+  @extend %spaceBet;
+
+}
+
+.navbar {
+  background: red;
+  height: 100%;
+  width: 40%;
+}

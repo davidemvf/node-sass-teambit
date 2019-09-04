@@ -1,6 +1,74 @@
+.second-section hr,
+.first-section,
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.whiteToLeft,
+.whiteToRight,
+.beige {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.first-section,
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  height: 80px;
+  background: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar {
+  background: red;
+  height: 100%;
+  width: 40%;
+}
+
+.first-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  width: "50%";
+  height: 455px;
+  background: green;
+}
+
+.second-section {
+  background: #FFE7D2;
+}
+
+.second-section hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.beige {
+  text-align: center;
+  background: red;
+}
+
+.whiteToLeft,
+.whiteToRight {
+  display: flex;
+}
+
+.heightSec {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 * {
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
