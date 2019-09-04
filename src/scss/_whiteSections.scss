@@ -1,4 +1,35 @@
 .whiteToLeft, .whiteToRight {
   @extend %centBeige;
+  color: $fontCol;
   display: flex;
+  margin-bottom: 100px;
+  img {
+    height: 471px;
+    // width: 768px;
+  }
+}
+
+.margin-left-neg {
+  margin-left: -350px;
+}
+
+.margin-right-neg {
+  margin-right: -200px;
+}
+
+.description {
+  p{
+    font-size: $pWhiteDim;
+    margin: 20px 0 30px 0;
+  }
+  a {
+    font-size: $pWhiteDim;
+    color: $buttonCol;
+    display: block;
+  }
+  img {
+    width: 270px;
+    height: 200px;
+    margin: 70px 30px 0 30px;
+  }
 }

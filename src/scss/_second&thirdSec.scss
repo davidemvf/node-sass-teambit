@@ -1,5 +1,12 @@
 .second-section {
   background: #FFE7D2;
+  color: $fontCol;
+  h2 {
+    
+    padding-top: 75px;
+    margin-bottom: 75px;
+    padding-bottom: 70px;
+  }
   hr{
     @extend %centHead;
     margin-top:20px;
@@ -10,6 +17,27 @@
 .beige {
   @extend %centBeige;
   text-align: center;
-  background: red;
+}
 
+.beige-imgs{
+  @extend %spaceBet;
+}
+
+.three-gemini{
+  width: 33.3%;
+  img {
+    width: 50%;
+    height: 40%;
+    margin-bottom: 24px;
+  }
+  p {
+    line-height: 25px;
+    font-size: 20px;
+  }
+}
+
+.rabbit {
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
