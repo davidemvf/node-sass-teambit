@@ -13,6 +13,7 @@ header {
 }
 
 .first-section,
+.navbar ul,
 header {
   display: flex;
   justify-content: space-between;
@@ -22,12 +23,37 @@ header {
   height: 80px;
   background: white;
   border-bottom: 1px solid lightgray;
+  align-items: center;
 }
 
 .navbar {
-  background: red;
   height: 100%;
   width: 40%;
+}
+
+.navbar li {
+  display: inline;
+  line-height: 80px;
+}
+
+.navbar li a,
+.navbar li span {
+  color: #58402C;
+}
+
+.sign {
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #2E4691;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 23px;
+}
+
+.sign img {
+  height: 30px;
 }
 
 .first-section {

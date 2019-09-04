@@ -4,11 +4,37 @@ header {
   background: white;
   border-bottom: 1px solid lightgray;
   @extend %spaceBet;
-
+  align-items: center;
 }
 
 .navbar {
-  background: red;
+
   height: 100%;
   width: 40%;
+
+  ul {
+    @extend %spaceBet;
+
+  }
+  li {
+    display: inline;
+    line-height: 80px;
+    a, span {
+      color: $fontCol;
+    }
+  }
+}
+
+.sign{
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid $buttonCol;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 23px;
+  img {
+    height: 30px;
+  }
 }
