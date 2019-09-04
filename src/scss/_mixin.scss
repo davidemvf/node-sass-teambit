@@ -1,5 +1,5 @@
 %centHead {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -11,4 +11,20 @@
 %spaceBet {
   display: flex;
   justify-content: space-between;
+}
+
+%button {
+  
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid $buttonCol;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 23px;
+    img {
+      height: 30px;
+    }
+
 }

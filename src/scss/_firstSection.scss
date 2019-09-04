@@ -1,12 +1,33 @@
 .first-section {
+  color: $fontCol;
   @extend %centHead;
   @extend %spaceBet;
   margin-top: 100px;
   margin-bottom: 100px;
+  #reunion {
+    width: $half;
+    height: 400px;
+  }
 }
 
 .title {
   width: $half;
   height: 455px;
-  background: green;
+  h1 {
+    font-size: 60px;
+    margin-bottom: 40px
+  }
+  p {
+    font-size: $pWhiteDim;
+    margin-bottom: 40px;
+  }
+  .signG {
+    @extend %button;
+    width: 190px;
+    background: $buttonCol;
+    color: #DEFFF4;
+    
+
+
+  }
 }

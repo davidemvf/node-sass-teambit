@@ -1,7 +1,7 @@
 .second-section hr,
 .first-section,
 header {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -17,6 +17,23 @@ header {
 header {
   display: flex;
   justify-content: space-between;
+}
+
+.title .signG,
+.sign {
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #2E4691;
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 23px;
+}
+
+.title .signG img,
+.sign img {
+  height: 30px;
 }
 
 header {
@@ -41,30 +58,36 @@ header {
   color: #58402C;
 }
 
-.sign {
-  height: 35px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid #2E4691;
-  border-radius: 8px;
-  padding: 8px;
-  margin-top: 23px;
-}
-
-.sign img {
-  height: 30px;
-}
-
 .first-section {
+  color: #58402C;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
+.first-section #reunion {
+  width: 50%;
+  height: 400px;
+}
+
 .title {
-  width: "50%";
+  width: 50%;
   height: 455px;
-  background: green;
+}
+
+.title h1 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.title p {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.title .signG {
+  width: 190px;
+  background: #2E4691;
+  color: #DEFFF4;
 }
 
 .second-section {
